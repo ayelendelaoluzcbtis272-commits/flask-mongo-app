@@ -1,7 +1,7 @@
 from pymongo import MongoClient
 import os
 
-MONGO_URI = os.environ.get("MONGO_URI", "mongodb://localhost:27017/escuela")
+MONGO_URI = os.environ.get("MONGO_URI", "mongodb+srv://luzayelen:admin123@cluster0.9peejhd.mongodb.net/escuela")
 client = MongoClient(MONGO_URI)
 db = client.get_default_database()
 
