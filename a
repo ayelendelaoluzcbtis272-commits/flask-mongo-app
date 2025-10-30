@@ -1,1 +1,12 @@
-
+flask_mongo_crud_alumnos/
+├── app.py
+├── requirements.txt
+├── seed.py
+├── templates/
+│   ├── base.html
+│   ├── index.html
+│   ├── create.html
+│   ├── edit.html
+│   └── view.html
+└── static/
+    └── style.css
